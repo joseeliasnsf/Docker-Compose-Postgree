@@ -9,7 +9,7 @@ services:
     ports:
       - 5441:5442
     volumes:
-      - pg-data:/var/lib/postgresql/data
+      - ./pg-data:/var/lib/postgresql/data
 volumes:
   pg-data:
 
